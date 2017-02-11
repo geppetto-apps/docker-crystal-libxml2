@@ -13,3 +13,5 @@ build:
 .PHONY: push
 push:
 	docker push $(REPO):$(TAG)
+	git tag $(TAG)
+	git push
