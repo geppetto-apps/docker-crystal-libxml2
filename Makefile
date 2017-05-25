@@ -1,6 +1,6 @@
 REPO=geppettoapps/crystal-libxml2
 
-TAG=0.20.5
+TAG=0.22.0
 
 .PHONY: all
 all:
